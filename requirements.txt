@@ -1,8 +1,5 @@
 Flask
-Pillow
 Werkzeug
-itsdangerous
-click
-Jinja2
-MarkupSafe
+Pillow
+cryptography
 gunicorn
