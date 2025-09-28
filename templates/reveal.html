@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Reveal a Hidden Message</h2>
+<form method="POST" enctype="multipart/form-data">
+  <div class="mb-3">
+    <label class="form-label">Upload Image</label>
+    <input type="file" name="image" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Password</label>
+    <input type="password" name="password" class="form-control" required>
+  </div>
+  <button type="submit" class="btn btn-success">Reveal Message</button>
+</form>
+{% endblock %}
